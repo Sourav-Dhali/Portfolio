@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    height: 70px;
+    border-bottom: 1.5px solid rgb(236, 236, 236);
+    font-size: 35px;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-left: 43px;
+    color: rgb(77, 76, 76);
+    font-family: "Times New Roman", Times, serif;
+    img{
+        height: 35px;
+        width: 35px;
+        padding-top: 5px;
+    }
+    .aboutHeader{
+        margin-left: 10px;
+        margin-top: 3px;
+
+    }
+}
+.body {
+    padding: 30px;
+    padding-left: 40px;
+    .coding {
+        display: flex;
+
+        img {
+            height: 26px;
+            width: 26px;
+        }
+        .codeIn {
+            font-size: 18px;
+            color: rgb(255, 117, 117);
+            margin-left: 10px;
+        }
+    }
+    .lang{
+        margin-top: 2em;
+        div{
+            width: 17em;
+            height: 6px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: rgb(100, 99, 99);
+            .insideC{
+                width: 13em;
+                background-color: rgb(255 67 67);
+            }
+            .insideHtml{
+                width: 15em;
+                background-color: rgb(94 245 116)
+            }
+            .insideScript{
+                width: 13.2em;
+                background-color: rgb(90 113 255);
+            }
+            .insideScss{
+                width: 14em;
+                background-color: rgb(211 110 248);
+            }
+            .insideBootstrap{
+                width: 14em;
+                background-color: rgb(255 246 86);
+            }
+            .insideAngular{
+                width: 15em;
+                background-color: rgb(49 212 255);
+            }
+        }
+    }
+
+}
