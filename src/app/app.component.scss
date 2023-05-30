@@ -7,13 +7,11 @@
 
     .header-container {
         width: 8%;
-        // box-sizing: border-box;
     }
     .profile-container {
         width: 35%;
         border-radius: 5px;
-        background-color: rgb(225 114 84);
-        // border: 1px solid azure;
+        background-color: rgba(114, 111, 110, 0.527);
     }
     .route-container{
         width: 54%;
@@ -22,7 +20,9 @@
         margin-left: 0px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        background-color: rgb(252, 252, 251);
+        background-color: rgba(252, 252, 251, 0.397);
     }
+      
+    
 }
 

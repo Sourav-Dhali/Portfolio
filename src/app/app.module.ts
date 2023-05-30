@@ -8,7 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
-import { ResumeComponent } from './resume/resume.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { SkillsComponent } from './skills/skills.component';
     HeaderComponent,
     HomeComponent,
     ProjectComponent,
-    ResumeComponent,
+    NotfoundComponent,
     SkillsComponent
   ],
   imports: [

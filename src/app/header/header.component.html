@@ -3,9 +3,25 @@
         <li><img src="../../assets/threeLine.svg" alt=""></li>
     </ul>
     <ul>
-      <li><a [routerLink]="['/']" [routerLinkActive]="'active'"><img src="assets/about.svg"> ABOUT<hr></a></li>
-      <li><a [routerLink]="['/skills']" [routerLinkActive]="'active'"><img src="assets/skills.svg">SKILLS<hr></a></li>
-      <li><a [routerLink]="['project']" [routerLinkActive]="'active'"><img src="assets/project.svg">PROJECT<hr></a></li>
-      <li><a [routerLink]="['/contact']" [routerLinkActive]="'active'"><img src="assets/contact.svg">CONTACT<hr></a></li>
+      <li>
+        <a [routerLink]="['/']" routerLinkActive="active">
+          <img src="assets/about.svg"> ABOUT<hr>
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/skills']" routerLinkActive="active">
+          <img src="assets/skills.svg">SKILLS<hr>
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['project']" routerLinkActive="active">
+          <img src="assets/project.svg">PROJECT<hr>
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/contact']" routerLinkActive="active">
+          <img src="assets/contact.svg">CONTACT<hr>
+        </a>
+      </li>
     </ul>
 </header>
