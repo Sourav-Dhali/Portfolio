@@ -1,25 +1,22 @@
 <header>
     <ul>
-        <li><img src="../../assets/threeLine.svg" alt=""></li>
-    </ul>
-    <ul>
       <li>
-        <a [routerLink]="['/']" routerLinkActive="active">
+        <a [routerLink]="['/about']" routerLinkActive="active" (click)="ChangeURL()">
           <img src="assets/about.svg"> ABOUT<hr>
         </a>
       </li>
       <li>
-        <a [routerLink]="['/skills']" routerLinkActive="active">
+        <a [routerLink]="['/skills']" routerLinkActive="active" (click)="ChangeURL()">
           <img src="assets/skills.svg">SKILLS<hr>
         </a>
       </li>
       <li>
-        <a [routerLink]="['project']" routerLinkActive="active">
+        <a [routerLink]="['project']" routerLinkActive="active" (click)="ChangeURL()">
           <img src="assets/project.svg">PROJECT<hr>
         </a>
       </li>
       <li>
-        <a [routerLink]="['/contact']" routerLinkActive="active">
+        <a [routerLink]="['/contact']" routerLinkActive="active" (click)="ChangeURL()">
           <img src="assets/contact.svg">CONTACT<hr>
         </a>
       </li>

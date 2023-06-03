@@ -13,16 +13,34 @@
         border-radius: 5px;
         background-color: rgba(114, 111, 110, 0.527);
     }
-    .route-container{
+    
+    .parrent {
+        position: relative;
         width: 54%;
         height: 42vw;
         margin: auto;
         margin-left: 0px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        background-color: rgba(252, 252, 251, 0.397);
+        overflow: hidden;
+        .route-container {
+            max-width: 100%;
+            background-color: rgba(252, 252, 251, 0.397);
+            position: absolute;
+            top: 0;
+            transition: all 0.5s;
+            left: -1000px;
+        }
+        .route-container.active {
+            left: 0px;
+            .rout{
+                opacity: 1;
+            }
+        }
+        .rout {
+            opacity: 0;
+            transition: all 0s;
+        }
     }
-      
-    
 }
 

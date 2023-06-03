@@ -3,7 +3,6 @@ header {
 
     ul {
         border-radius: 5px;
-        // background-color: rgb(249, 249, 250);
 
 
         li {
@@ -20,7 +19,7 @@ header {
             }
 
             a:hover,
-            :active {
+            .active {
                 color: rgb(245 13 109);
             }
 
