@@ -1,11 +1,10 @@
 .total {
     img {
         width: 100%;
-        height: 22em;
+        height: 25em;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
-
     .midSec {
         text-align: center;
 
@@ -19,46 +18,17 @@
             justify-content: center;
             color: #9cf8a9;
             font-size: 30px;
-
-            .dynamic {
-                margin-left: 15px;
-                overflow: hidden;
-                border-right: .15em solid orange;
-                white-space: nowrap;
-                // margin: 0 auto;
-                animation:
-                    typing 5s steps(50, end),
-                    blink-caret .3s step-start infinite;
-
-                // span{
-                //     position: relative;
-
-                //     ::before{
-                //         // content: 'youtuber';
-                //         color: red;
-                //         animation: words 20s infinite;
-                //     }
-
-                //     ::after{
-                //         content: '';
-                //         background-color:#2f3542;
-                //         position: absolute;
-                //         width: calc(100% + 8px);
-                //         height: 100%;
-                //         border-left: 2px solid red;
-                //         right: -8px;
-                //         animation: cursor .6s infinite, typing 20s steps(14) infinite;
-
-                //     }
-                // }
+            .line{
+                font-size: 45px;
+                font-weight: 500;
+                color: orange;
             }
         }
 
         .logos {
             display: flex;
             justify-content: center;
-            margin: 6px;
-
+            margin: 0px 6px;
             img {
                 height: 25px;
                 width: 25px;
@@ -66,86 +36,23 @@
             }
         }
     }
-
-    .footer {
+    .home_footer {
         display: flex;
-        text-align: center;
         font-size: 18px;
-        position: relative;
-        // height: 15px;
-        bottom: -35px;
+        position: absolute;
+        bottom:20px;
 
         .content {
-            box-sizing: border-box;
-            // background-color: rgb(243 150 125);
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-            width: 50%;
+            text-align: center;
+            margin: 15px 66px;
 
-            // border: 2px solid rgb(253, 132, 98);
             a {
                 text-decoration: none;
                 color: black;
             }
-
-            a:hover,
-            :active {
+            a:hover{
                 color: rgb(245, 55, 3);
             }
         }
     }
 }
-
-// /* The typing effect */
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-// /* The typewriter cursor effect */
-@keyframes blink-caret {
-    // from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: orange;
-    }
-}
-
-// @keyframes cursor{
-//     to{
-//         border-left: 2px solid #2f3542;
-//     }
-// }
-// @keyframes words{
-//     0%,20%{
-//         content: 'youtuber';
-//     }
-//     21%,40%{
-//         content: 'developer';
-//     }
-//     41%,60%{
-//         content: 'designer';
-//     }
-//     61%,80%{
-//         content: 'engineer';
-//     }
-//     81%,100%{
-//         content: 'fresher';
-//     }
-// }
-// @keyframes typing {
-//         10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
-//             width: 0;
-//         }
-//         5%,20%,25%,40%,45%,60%,65%,80%,85%{
-//             width: calc(100% + 8px);
-//         }
-    
-//     }

@@ -2,14 +2,12 @@
   <div class="header-container">
     <app-header (parrent)="changedURL()"></app-header>
   </div>
-  <div class="profile-container">
+  <div class="home-container">
     <app-home></app-home>
   </div>
   <section class="parrent">
     <div class="route-container" [ngClass]="{'active' : active}">
-      <section class="rout">
-        <router-outlet></router-outlet>
-      </section>
+      <router-outlet></router-outlet>
     </div>
   </section>
 </div>

@@ -7,18 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
   title = 'portfolio';
-  active = false
+  active = false;
+  
   ngOnInit(){
     setTimeout(() => {
       this.active = true
-    }, 1000);
+    }, 400);
   }
 
   changedURL() {
     this.active = false
     setTimeout(() => {
       this.active = true
-    }, 1000);
+    }, 400);
   }
   
 }

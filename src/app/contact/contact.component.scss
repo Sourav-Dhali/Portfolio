@@ -1,4 +1,4 @@
-.header{
+.contact-header{
     display: flex;
     height: 70px;
     border-bottom: 1.5px solid rgb(236, 236, 236);
@@ -19,7 +19,7 @@
 
     }
 }
-.body{
+.contact-body{
     img{
         width: 100%;
         height: 50%;
@@ -27,7 +27,7 @@
     .allAds{
         display: flex;
         justify-content: space-between;
-        padding: 0 3em;
+        padding: 1em 3em;
         .add{
             width: 14em;
             text-align: center;

@@ -1,4 +1,4 @@
-.header{
+.skills-header{
     display: flex;
     height: 70px;
     border-bottom: 1.5px solid rgb(236, 236, 236);
@@ -16,15 +16,13 @@
     .aboutHeader{
         margin-left: 10px;
         margin-top: 3px;
-
     }
 }
-.body {
+.skills-body {
     padding: 30px;
     padding-left: 40px;
     .coding {
         display: flex;
-
         img {
             height: 35px;
             width: 26px;
@@ -46,32 +44,32 @@
             opacity: 0.6;
             .insideC{
                 width: 25em;
-                background-color: rgb(80 113 255);
+                background-color: #ff4343;
                 opacity: 1;
             }
             .insideHtml{
                 width: 26em;
-                background-color: rgb(80 113 255);
+                background-color: #5ef574;
                 opacity: 1;
             }
             .insideScript{
                 width: 27em;
-                background-color: rgb(80 113 255);
+                background-color: #5a71ff;
                 opacity: 1;
             }
             .insideScss{
                 width: 26em;
-                background-color: rgb(80 113 255);
+                background-color: #d36ef8;
                 opacity: 1;
             }
             .insideBootstrap{
                 width: 27.5em;
-                background-color: rgb(80 113 255);
+                background-color: #fff656;
                 opacity: 1;
             }
             .insideAngular{
                 width: 26em;
-                background-color: rgb(80 113 255);
+                background-color: #31d4ff;
                 opacity: 1;
             }
         }

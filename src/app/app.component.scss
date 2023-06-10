@@ -8,12 +8,11 @@
     .header-container {
         width: 8%;
     }
-    .profile-container {
+    .home-container {
         width: 35%;
         border-radius: 5px;
         background-color: rgba(114, 111, 110, 0.527);
     }
-    
     .parrent {
         position: relative;
         width: 54%;
@@ -25,6 +24,8 @@
         overflow: hidden;
         .route-container {
             max-width: 100%;
+            height: 90vh;
+            width: 100%;
             background-color: rgba(252, 252, 251, 0.397);
             position: absolute;
             top: 0;
@@ -33,14 +34,6 @@
         }
         .route-container.active {
             left: 0px;
-            .rout{
-                opacity: 1;
-            }
-        }
-        .rout {
-            opacity: 0;
-            transition: all 0s;
         }
     }
 }
-

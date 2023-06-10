@@ -8,11 +8,12 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent{
   @Output() parrent = new EventEmitter<string>();
+  ChangeURL() {
+    this.parrent.emit();
+  }
+  
   constructor(router:Router){
 
   }
   
-  ChangeURL() {
-    this.parrent.emit();
-  }
 }
