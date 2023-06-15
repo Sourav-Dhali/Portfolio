@@ -24,3 +24,38 @@ header {
         }
     }
 }
+@media screen and (max-width: 415px) {
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    ul{
+        display:flex ;
+        box-sizing: border-box;
+        li{
+            margin: 0 8px;
+            padding: 0;
+            font-size: 12px;
+            a{
+                img{
+                    display: none;
+                }
+                .active {
+                   text-decoration: underline;
+                    font-size: 18px;
+                    color: aquamarine;
+                }
+                
+                hr{
+                    display: none;
+                }
+            }
+
+            
+
+        }
+        
+    }
+}
+
+}

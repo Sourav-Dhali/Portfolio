@@ -7,12 +7,13 @@
         <div class="logos">
             <div class="logo"><a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.svg"></a></div>
             <div class="logo"><a href="https://www.linkedin.com/in/sourav-dhali-d2397" target="_blank"><img src="assets/linkedin.svg"></a></div>
-            <div class="logo"><a href="https://twitter.com/" target="_blank"><img src="assets/twitter.svg"></a></div>
             <div class="logo"><a href="https://github.com/Sourav-Dhali" target="_blank"><img src="assets/github.svg"></a></div>
         </div>
     </div>
     <div class="home_footer">
-        <div class="content"><a href="assets/Sourav Dhali_Frontend Developer_Angular.pdf" target="_blank">DOWNLOAD CV</a></div>
-        <div class="content"><a [routerLink]="['/contact']">CONTACT ME</a></div>
+        <div class="downloadCV"><a href="assets/Sourav Dhali_Frontend Developer_Angular.pdf" target="_blank">DOWNLOAD CV</a>
+        </div>
+        <div class="contact"><a [routerLink]="['/contact']">CONTACT ME</a></div>
+        <div class="hire" (click)="hireClick()">HIRE ME</div>
     </div>
 </div>

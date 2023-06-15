@@ -40,5 +40,8 @@ export class HomeComponent implements OnInit {
       }
     } 
   }
+  hireClick(){
+    alert("Im Sourav Dhali I have been working for the last 6months in an automobile company. Now Im started my career in trainee softwere engineer. My technical skills are C,HTML,CSS/SCSS,JavaScript,Angular,Git,Bootstrap");
+  }
 
 }

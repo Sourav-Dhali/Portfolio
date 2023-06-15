@@ -1,11 +1,15 @@
 <div class="main-container">
-  <div class="header-container">
+  <div class="portfolio"># myPortfolio.</div>
+  <div class="three" (click)="clickHeader()">
+    <img src="../../assets/threeline.svg" alt="">
+</div>
+  <div class="header-container" [class.headerClass]="myHeader">
     <app-header (parrent)="changedURL()"></app-header>
   </div>
-  <div class="home-container">
+  <div class="home-container" [class.homeClass]="myHome">
     <app-home></app-home>
   </div>
-  <section class="parrent">
+  <section class="parrent" [class.parrentClass]="myParrent">
     <div class="route-container" [ngClass]="{'active' : active}">
       <router-outlet></router-outlet>
     </div>

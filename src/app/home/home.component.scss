@@ -1,10 +1,12 @@
 .total {
+
     img {
         width: 100%;
         height: 22em;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
+
     .midSec {
         text-align: center;
 
@@ -19,7 +21,8 @@
             justify-content: center;
             color: #9cf8a9;
             font-size: 30px;
-            .line{
+
+            .line {
                 font-size: 45px;
                 font-weight: 500;
                 color: orange;
@@ -30,6 +33,7 @@
             display: flex;
             justify-content: center;
             margin: 0px 6px;
+
             img {
                 height: 25px;
                 width: 25px;
@@ -37,22 +41,93 @@
             }
         }
     }
+
     .home_footer {
         display: flex;
         font-size: 18px;
         position: absolute;
         bottom: 33px;
 
-        .content {
-            width: 12.5em;
+        .hire {
+            display: none;
             text-align: center;
+
             a {
                 text-decoration: none;
                 color: black;
             }
-            a:hover{
+
+            a:hover {
+                color: rgb(245, 55, 3);
+            }
+        }
+
+        .downloadCV {
+            width: 12.5em;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: rgb(245, 55, 3);
+            }
+        }
+
+        .contact {
+            width: 12.5em;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
                 color: rgb(245, 55, 3);
             }
         }
     }
+}
+
+@media screen and (max-width: 415px) {
+    .total {
+        .midSec {
+            text-align: center;
+
+            .logos {
+                display: flex;
+                justify-content: center;
+                margin: 10px 6px;
+
+                img {
+                    height: 27px;
+                    width: 27px;
+                    margin: 12px;
+                }
+            }
+        }
+
+        .home_footer {
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            .hire {
+                display: block;
+                width: 100px;
+                margin: 0 10px;
+            }
+            .downloadCV {
+                width: 100px;
+                margin: 0 10px;
+            }
+            .contact {
+                display: none;
+            }
+        }
+    }
+
+
 }

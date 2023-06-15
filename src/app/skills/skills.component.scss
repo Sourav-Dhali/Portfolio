@@ -34,11 +34,11 @@
         }
     }
     .lang{
-        margin-top: 2em;
+        margin-top: 1em;
         div{
             width: 30em;
             height: 10px;
-            margin: 10px 0;
+            margin: 8px 0;
             border-radius: 5px;
             background-color: rgb(255, 252, 252);
             opacity: 0.6;
@@ -49,7 +49,7 @@
             }
             .insideHtml{
                 width: 26em;
-                background-color: #5ef574;
+                background-color: #99ff46;
                 opacity: 1;
             }
             .insideScript{
@@ -71,6 +71,97 @@
                 width: 26em;
                 background-color: #31d4ff;
                 opacity: 1;
+            }
+            .insideGit{
+                width: 26em;
+                background-color: #ff31e4;
+                opacity: 1;
+
+            }
+        }
+    }
+}
+@media screen and (max-width: 415px) {
+    .contact-header{
+        display: flex;
+        height: 70px;
+        border-bottom: 1.5px solid rgb(236, 236, 236);
+        font-size: 30px;
+        padding: 15px;
+        box-sizing: border-box;
+        padding-left: 30px;
+        color: rgb(77, 76, 76);
+        font-family: "Times New Roman", Times, serif;
+        img{
+            height: 30px;
+            width: 30px;
+            padding-top: 5px;
+        }
+        .aboutHeader{
+            margin-left: 10px;
+            margin-top: 3px;
+    
+        }
+    }
+    .skills-body {
+        padding: 10px;
+        .coding {
+            display: flex;
+            justify-content: center;
+            img {
+                height: 35px;
+                width: 26px;
+            }
+            .codeIn {
+                font-size: 22px;
+                color: rgb(255, 117, 117);
+                margin-left: 10px;
+            }
+        }
+        .lang{
+            margin-top: 1em;
+            div{
+                width: 300px;
+                height: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+                background-color: rgb(255, 252, 252);
+                opacity: 0.6;
+                .insideC{
+                    width: 240px;
+                    background-color: #ff4343;
+                    opacity: 1;
+                }
+                .insideHtml{
+                    width: 265px;
+                    background-color: #5ef574;
+                    opacity: 1;
+                }
+                .insideScript{
+                    width: 242px;
+                    background-color: #5a71ff;
+                    opacity: 1;
+                }
+                .insideScss{
+                    width: 240px;
+                    background-color: #d36ef8;
+                    opacity: 1;
+                }
+                .insideBootstrap{
+                    width: 235px;
+                    background-color: #fff656;
+                    opacity: 1;
+                }
+                .insideAngular{
+                    width: 260px;
+                    background-color: #31d4ff;
+                    opacity: 1;
+                }
+                .insideGit{
+                    width: 257px;
+                    background-color: #31ff64;
+                    opacity: 1;
+                }
             }
         }
     }

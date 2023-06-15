@@ -5,14 +5,25 @@
     box-sizing: border-box;
     padding: 24px;
 
+
+    .portfolio {
+        display: none;
+    }
+
+    .three {
+        display: none;
+    }
+
     .header-container {
         width: 8%;
     }
+
     .home-container {
         width: 35%;
         border-radius: 5px;
         background-color: rgba(114, 111, 110, 0.527);
     }
+
     .parrent {
         position: relative;
         width: 54%;
@@ -22,6 +33,7 @@
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         overflow: hidden;
+
         .route-container {
             max-width: 100%;
             height: 90vh;
@@ -32,8 +44,87 @@
             transition: all 0.5s;
             left: -1000px;
         }
+
         .route-container.active {
             left: 0px;
         }
     }
+}
+
+@media screen and (max-width: 415px) {
+    .main-container {
+        padding: 18px;
+        padding-top: 50px;
+
+        .portfolio {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 23px;
+            color: rgb(243, 245, 157);
+        }
+
+        .three {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+
+        .header-container {
+            display: none;
+        }
+
+        .headerClass {
+            display: block;
+            width: 100%;
+            height: 5vh;
+            border-radius: 5px;
+            box-shadow: 6px 6px 5px rgba(193, 240, 255, 0.466);
+            background-color: rgba(127, 136, 255, 0.164);
+        }
+
+        .parrent {
+            display: none;
+        }
+
+        .parrentClass {
+            display: block;
+            width: 100%;
+            height: 90%;
+            border-radius: 5px;
+            .route-container {
+                max-width: 100%;
+                height: 90vh;
+                width: 100%;
+                background-color: rgba(252, 252, 251, 0.397);
+                position: absolute;
+                top: 0;
+                transition: all 0.5s;
+                left: -1000px;
+            }
+            .route-container.active {
+                left: 0px;
+            }
+        }
+
+        .home-container {
+            width: 100%;
+            border-radius: 5px;
+            background-color: rgba(114, 111, 110, 0.527);
+        }
+
+        .homeClass {
+            display: none;
+        }
+
+    }
+
+
 }
