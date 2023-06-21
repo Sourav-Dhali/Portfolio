@@ -1,4 +1,4 @@
-header {
+.header {
     margin-right: 14px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     ul {
@@ -25,10 +25,9 @@ header {
     }
 }
 @media screen and (max-width: 415px) {
-header{
+.header{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+     
     ul{
         display:flex ;
         box-sizing: border-box;

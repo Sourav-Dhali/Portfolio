@@ -3,25 +3,47 @@
     <div class="aboutHeader">Projects..</div>
 </div>
 <div class="project-body">
-    <div class="name">Self-Portfolio</div>
-    <div class="description">
-        <div class="heading">Duration:</div>
-        <div class="aboutHeading">May2023-Still Updating.</div>
-    </div>
-    <div class="description">
-        <span class="heading">Details Of Project:</span>
-        <span class="aboutHeading">My personal portfolio is a compilation of relevant work samples and documents gathered during my school years and presented in a structured manner. It profiles my goals, progress, achievements and competencies in an organized, accessible and purposeful format, without overwhelming prospective employers.</span>
-    </div>
-    <div class="description">
-        <div class="heading">Technologies:</div>
-        <div class="aboutHeading">HTML, SCSS, TypeScript, Angular, GitHub, Firebase.</div>
-    </div>
-    <div class="description">
-        <div class="heading">URL:</div>
-        <div class="aboutHeading">https://souravportfolio2023.web.app</div>
-    </div>
-    <div class="description">
-        <div class="heading">URL:</div>
-        <div class="aboutHeading">...........</div>
+    <div ngbAccordion [closeOthers]="true" class="accordian">
+        <div ngbAccordionItem [collapsed]="false" class="accordianIn1">
+            <h1 ngbAccordionHeader >
+                <button ngbAccordionButton class="accordianHead"> Self-Portfolio </button>
+            </h1>
+            <div ngbAccordionCollapse>
+                <div ngbAccordionBody>
+                    <ng-template>
+                        <div class="description">
+                            <div class="heading">Project Details:</div>
+                            <div class="aboutHeading">My personal portfolio is a compilation of relevant work samples
+                                and documents gathered during my school years and presented in a structured manner. It
+                                profiles my goals, progress, achievements and competencies in an organized, accessible
+                                and purposeful format, without overwhelming prospective employers.</div>
+                        </div>
+                        <div class="description">
+                            <div class="heading">Technologies:</div>
+                            <div class="aboutHeading">HTML, SCSS, TypeScript, Angular, GitHub, Firebase.</div>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="accordianIn1">
+            <h2 ngbAccordionHeader>
+                <button ngbAccordionButton class="accordianHead"> Demo Shoping Site </button>
+            </h2>
+            <div ngbAccordionCollapse>
+                <div ngbAccordionBody>
+                    <ng-template>
+                        <div class="description">
+                            <div class="heading">Project Details:</div>
+                            <div class="aboutHeading">A Shoping Site that is fully dynamic where I can add or unadd products and product details. Every product can be seen individually by clicking on that and can be added to cart by clicking 'Add to Cart' button.</div>
+                        </div>
+                        <div class="description">
+                            <div class="heading">Technologies:</div>
+                            <div class="aboutHeading">HTML, SCSS, TypeScript, Angular, GitHub</div>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

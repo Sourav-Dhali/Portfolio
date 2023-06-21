@@ -14,9 +14,9 @@ export class HomeComponent implements OnInit {
   typewriter_display = ''
 
   messagelist = [
-    'Wellcome to my page ',
-    'I am Web Designer ',
-    'I am a Software Developer '
+    "Wellcome to my page ",
+    "I'm a Web Designer ",
+    "I'm a Software Developer "
   ]
 
   animateMessage(i:any,j:any) {

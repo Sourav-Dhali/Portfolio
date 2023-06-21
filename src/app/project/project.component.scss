@@ -1,4 +1,4 @@
-.project-header{
+.project-header {
     display: flex;
     height: 70px;
     border-bottom: 1.5px solid rgb(236, 236, 236);
@@ -8,87 +8,85 @@
     padding-left: 43px;
     color: rgb(77, 76, 76);
     font-family: "Times New Roman", Times, serif;
-    img{
+
+    img {
         height: 35px;
         width: 35px;
         padding-top: 5px;
     }
-    .aboutHeader{
+
+    .aboutHeader {
         margin-left: 10px;
         margin-top: 3px;
 
     }
 }
-.project-body{
-    padding: 30px;
-    padding-left: 40px;
-    .name{
-        font-size: 27px;
-        color: rgb(95, 95, 95);
-        font-weight:900;
-        text-decoration: underline;
-    }
-    .description{
-        display: flex;
-        .heading{
-            color: rgb(41, 40, 40);
-            font-size: 25px;
-            margin: 8px;
-        }
-        .aboutHeading{
-            color: rgb(76, 77, 77);
-            margin: 6px;
-            margin-top: 15px;
-            line-height: 22px;
+
+.project-body {
+    padding: 20px;
+
+    .accordian {
+        .accordianIn1 {
+            background: transparent;
+            background-color: rgba(172, 255, 172, 0.295);
+            border: none;
+
+            .accordianHead {
+                background-color: rgb(162 169 65 / 33%);
+                border: none;
+                color: rgb(24, 114, 216);
+                font-size: 23px;
+            }
+
+            .description {
+                .heading {
+                    color: rgb(41, 40, 40);
+                    font-size: 22px;
+                    line-height: 14px;
+                    margin-top: 25px;
+                }
+
+                .aboutHeading {
+                    color: rgb(76, 77, 77);
+                    margin: 10px;
+                    margin-top: 15px;
+                    line-height: 22px;
+                }
+            }
         }
     }
 }
+
 @media screen and (max-width: 415px) {
-    .contact-header{
+    .project-header {
         display: flex;
-        height: 70px;
-        border-bottom: 1.5px solid rgb(236, 236, 236);
-        font-size: 30px;
+        font-size: 32px;
         padding: 15px;
-        box-sizing: border-box;
-        padding-left: 30px;
-        color: rgb(77, 76, 76);
-        font-family: "Times New Roman", Times, serif;
-        img{
-            height: 30px;
-            width: 30px;
+
+        img {
+            height: 33px;
+            width: 33px;
             padding-top: 5px;
         }
-        .aboutHeader{
+
+        .aboutHeader {
             margin-left: 10px;
             margin-top: 3px;
-    
-        }
-    }
-    .project-body{
-        padding: 10px;
-        .name{
-            font-size: 22px;
-            color: rgb(95, 95, 95);
-            font-weight:900;
-            text-decoration: underline;
-            margin: 5px;
-        }
-        .description{
-            display: flex;
-            .heading{
-                color: rgb(41, 40, 40);
-                font-size: 20px;
-                margin: 1px;
-            }
-            .aboutHeading{
-                color: rgb(76, 77, 77);
-                margin: 6px;
-                margin-top: 6px;
-                line-height: 22px;
-                font-size: 12px;
-            }
         }
     }
 
+    .project-body {
+        .description {}
+
+        .aboutHeading {
+            color: rgb(76, 77, 77);
+            margin: 6px;
+            margin-top: 6px;
+            line-height: 22px;
+            font-size: 12px;
+        }
+    }
 }
+
+
+@import 'bootstrap/scss/bootstrap';
